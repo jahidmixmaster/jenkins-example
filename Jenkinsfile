@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        jdk 'java_9'
+    }
+
     stages {
         stage ('Compile Stage') {
 
