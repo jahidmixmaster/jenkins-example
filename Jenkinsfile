@@ -18,7 +18,4 @@ pipeline {
       }
     }
   }
-  tools {
-    jdk 'java_9'
-  }
 }
